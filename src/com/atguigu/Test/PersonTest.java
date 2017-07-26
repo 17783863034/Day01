@@ -14,7 +14,7 @@ import com.atguigu.bean.Student;
 public class PersonTest {
 	public ApplicationContext ioc=new ClassPathXmlApplicationContext("bean.xml");
 	@Test
-	public void test1() {
+	public void test1() {1111111
 		Person person = (Person) ioc.getBean("person01");
 		//Person bean = applicationContext.getBean(Person.class);
 		//System.out.println(bean);
